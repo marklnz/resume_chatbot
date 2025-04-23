@@ -1,0 +1,53 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore Rider/VSCode/Visual Studio files
+.idea/
+.vscode/
+.vs/
+
+# Ignore user secrets
+**/secrets.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+*.sublime-workspace
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.lib
+*.ndk
+*.obj
+*.o
+*.so
+*.dylib
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore generated files
+*.generated.cs
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
